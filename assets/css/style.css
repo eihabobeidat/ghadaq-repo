@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 img[src="assets/logo/Asset 2.png"] {
-    width: 50px; /* Adjust to desired width */
+    width: 300px; /* Adjust to desired width */
     height: auto; /* Maintains aspect ratio */
 }
 * {
