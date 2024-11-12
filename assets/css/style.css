@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 img[src="assets/logo/Asset 2.png"] {
-    width: 100px; /* Adjust to desired width */
+    width: 50px; /* Adjust to desired width */
     height: auto; /* Maintains aspect ratio */
 }
 * {
@@ -18,7 +18,7 @@ img[src="assets/logo/Asset 2.png"] {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 a,
