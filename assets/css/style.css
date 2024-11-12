@@ -744,43 +744,31 @@ p {
   BRAND css 
 ===========================*/
 @media (max-width: 767px) {
-  .brand-logo {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  .single-logo img {
+    width: 100px; /* Resize the logo for mobile */
+    height: auto; /* Maintain aspect ratio */
   }
 }
 
-.single-logo {
-  padding: 15px 30px;
-  text-align: center;
-}
-
+/* For medium screens (tablets) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .single-logo {
-    padding: 15px 15px;
+  .single-logo img {
+    width: 150px; /* Resize logo for tablet-sized screens */
+    height: auto;
   }
 }
 
-@media (max-width: 767px) {
-  .single-logo {
-    padding: 15px 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .single-logo {
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .single-logo {
-    width: 33.33%;
+/* For larger screens (desktop) */
+@media (min-width: 992px) {
+  .single-logo img {
+    width: 200px; /* Resize logo for larger screens */
+    height: auto;
   }
 }
 
 .single-logo img {
-  max-width: 100%;
+  max-width: 100%;  /* Ensure it doesn't go beyond the container */
+  height: auto;     /* Maintain aspect ratio */
   -webkit-filter: grayscale(5);
   filter: grayscale(5);
   opacity: 0.5;
