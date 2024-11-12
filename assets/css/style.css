@@ -743,26 +743,26 @@ p {
 /*===========================
   BRAND css 
 ===========================*/
+/* For the navbar logo */
+.navbar-brand img {
+  max-width: 100%;  /* Ensures the image scales according to its container */
+  width: auto;      /* Makes sure the aspect ratio is maintained */
+  height: auto;     /* Same for height to maintain aspect ratio */
+  max-height: 80px; /* Adjust this value to your desired height */
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+/* Optional: For responsive resizing */
 @media (max-width: 767px) {
-  .single-logo img {
-    width: 400px; /* Resize the logo for mobile */
-    height: auto; /* Maintain aspect ratio */
+  .navbar-brand img {
+    max-height: 60px; /* Resize for smaller screens */
   }
 }
 
-/* For medium screens (tablets) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .single-logo img {
-    width: 400px; /* Resize logo for tablet-sized screens */
-    height: auto;
-  }
-}
-
-/* For larger screens (desktop) */
-@media (min-width: 992px) {
-  .single-logo img {
-    width: 600px; /* Resize logo for larger screens */
-    height: auto;
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand img {
+    max-height: 70px; /* Resize for medium screens */
   }
 }
 
