@@ -745,7 +745,7 @@ p {
 ===========================*/
 @media (max-width: 767px) {
   .single-logo img {
-    width: 100px; /* Resize the logo for mobile */
+    width: 400px; /* Resize the logo for mobile */
     height: auto; /* Maintain aspect ratio */
   }
 }
@@ -767,7 +767,7 @@ p {
 }
 
 .single-logo img {
-  max-width: 100%;  /* Ensure it doesn't go beyond the container */
+  max-width: 400%;  /* Ensure it doesn't go beyond the container */
   height: auto;     /* Maintain aspect ratio */
   -webkit-filter: grayscale(5);
   filter: grayscale(5);
