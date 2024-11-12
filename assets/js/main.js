@@ -20,12 +20,12 @@
   if (window.pageYOffset > sticky) {
     header_navbar.classList.add("sticky");
     logo.src = "assets/images/logo/Asset 2.png";
-    logo.style.width = '300px'; // Adjust the width to your desired size
+    logo.style.width = '250px'; // Adjust the width to your desired size
     logo.style.height = 'auto'; // Keeps the aspect ratio
 } else {
     header_navbar.classList.remove("sticky");
     logo.src = "assets/images/logo/Asset 2.png";
-    logo.style.width = '300px'; // Adjust the width to your desired size for the non-sticky state
+    logo.style.width = '250px'; // Adjust the width to your desired size for the non-sticky state
     logo.style.height = 'auto'; // Keeps the aspect ratio
 }
 
