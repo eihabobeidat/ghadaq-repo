@@ -743,32 +743,44 @@ p {
 /*===========================
   BRAND css 
 ===========================*/
-/* For the navbar logo */
-.navbar-brand img {
-  max-width: 100%;  /* Ensures the image scales according to its container */
-  width: auto;      /* Makes sure the aspect ratio is maintained */
-  height: auto;     /* Same for height to maintain aspect ratio */
-  max-height: 80px; /* Adjust this value to your desired height */
-  -webkit-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-
-/* Optional: For responsive resizing */
 @media (max-width: 767px) {
-  .navbar-brand img {
-    max-height: 60px; /* Resize for smaller screens */
+  .brand-logo {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .navbar-brand img {
-    max-height: 70px; /* Resize for medium screens */
+.single-logo {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-logo {
+    padding: 15px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .single-logo {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .single-logo {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-logo {
+    width: 33.33%;
   }
 }
 
 .single-logo img {
-  max-width: 400%;  /* Ensure it doesn't go beyond the container */
-  height: auto;     /* Maintain aspect ratio */
+  max-width: 100%;
   -webkit-filter: grayscale(5);
   filter: grayscale(5);
   opacity: 0.5;
@@ -781,7 +793,6 @@ p {
   -webkit-filter: none;
   filter: none;
 }
-
 /*===========================
   SERVICES css 
 ===========================*/
