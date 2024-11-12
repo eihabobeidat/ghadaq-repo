@@ -146,7 +146,7 @@ p {
     left top,
     right top,
     from(#33c8c1),
-    color-stop(50%, #119bd2),
+    color-stop(50%, #5448BC),
     to(#33c8c1)
   );
   background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
