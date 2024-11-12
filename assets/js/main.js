@@ -17,13 +17,17 @@
     const sticky = header_navbar.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
 
-    if (window.pageYOffset > sticky) {
-      header_navbar.classList.add("sticky");
-      logo.src = "assets/images/logo/Asset 2.png";
-    } else {
-      header_navbar.classList.remove("sticky");
-      logo.src = "assets/images/logo/Asset 2.png";
-    }
+  if (window.pageYOffset > sticky) {
+    header_navbar.classList.add("sticky");
+    logo.src = "assets/images/logo/Asset 2.png";
+    logo.style.width = '100px'; // Adjust the width to your desired size
+    logo.style.height = 'auto'; // Keeps the aspect ratio
+} else {
+    header_navbar.classList.remove("sticky");
+    logo.src = "assets/images/logo/Asset 2.png";
+    logo.style.width = '100px'; // Adjust the width to your desired size for the non-sticky state
+    logo.style.height = 'auto'; // Keeps the aspect ratio
+}
 
     // show or hide the back-top-top button
     const backToTop = document.querySelector(".back-to-top");
