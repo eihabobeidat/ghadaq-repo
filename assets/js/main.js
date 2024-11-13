@@ -24,7 +24,7 @@
     logo.style.height = 'auto'; // Keeps the aspect ratio
 } else {
     header_navbar.classList.remove("sticky");
-    logo.src = "assets/images/logo/Asset 2.png";
+    logo.src = "assets/images/logo/scfifile white.png";
     logo.style.width = '220px'; // Adjust the width to your desired size for the non-sticky state
     logo.style.height = 'auto'; // Keeps the aspect ratio
 }
