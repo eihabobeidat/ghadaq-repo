@@ -3,7 +3,7 @@
 
   // ==== Preloader
   window.onload = function () {
-    window.setTimeout(fadeout, 0);
+    window.setTimeout(fadeout, 500);
   };
 
   function fadeout() {
