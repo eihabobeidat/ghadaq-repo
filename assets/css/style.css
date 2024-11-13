@@ -225,7 +225,7 @@ p {
   position: fixed;
   top: 0;
   left: 0;
-  display: table;
+  display: none;
   height: 100%;
   width: 100%;
   /* Change Background Color */
@@ -300,7 +300,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #361cc1 #361cc1 #e1e1e1;
+  border-color: #7067C7 #594EBE #5448BC;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -607,7 +607,7 @@ p {
 
 .navbar-nav .nav-item a:hover,
 .navbar-nav .nav-item a.active {
-  color: #fe7a7b;
+  color: #5448BC;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
