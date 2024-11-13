@@ -1131,10 +1131,10 @@ p {
     linear,
     left top,
     left bottom,
-    from(#fe8464),
-    to(#fe6e9a)
+    from(#5448BC),
+    to(#7067C7)
   );
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(#5448BC 0%, #7067C7 100%);
 }
 
 .counter-wrapper .single-counter.counter-color-3::before {
@@ -1142,10 +1142,10 @@ p {
     linear,
     left top,
     left bottom,
-    from(#361cc1),
-    to(#2e82ef)
+    from(#343434),
+    to(#585858)
   );
-  background: linear-gradient(#361cc1 0%, #2e82ef 100%);
+  background: linear-gradient(#343434 0%, #585858 100%);
 }
 
 .counter-wrapper .single-counter .count {
@@ -1286,11 +1286,11 @@ p {
     linear,
     left top,
     right top,
-    from(#343434),
-    color-stop(50%, #343434),
-    to(#343434)
+    from(#7067C7),
+    color-stop(50%, #594EBE),
+    to(#5448BC)
   );
-  background: linear-gradient(to right, #343434 0%, #343434 50%, #343434 100%);
+  background: linear-gradient(to right, #7067C7 0%, #594EBE 50%, #5448BC 100%);
   background-size: 200%;
 }
 
@@ -1381,19 +1381,19 @@ p {
 
 .footer-about .social li a {
   font-size: 22px;
-  color: #343434;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .footer-about .social li a:hover {
-  color: #fff;
+  color: #5448BC;
 }
 
 .footer-title .title {
   font-size: 24px;
   font-weight: 700;
-  color: #343434;
+  color: #fff;
 }
 
 .link-wrapper {
@@ -1424,13 +1424,13 @@ p {
 
 .link-wrapper .link li a {
   font-size: 16px;
-  color: #343434;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .link-wrapper .link li a:hover {
-  color: #fff;
+  color: #5448BC;
 }
 
 .footer-contact .contact {
@@ -1440,7 +1440,7 @@ p {
 .footer-contact .contact li {
   margin-top: 20px;
   font-size: 16px;
-  color:#343434;
+  color:#fff;
 }
 
 .footer-copyright {
@@ -1455,18 +1455,18 @@ p {
 }
 
 .copyright-content p {
-  color: #343434;
+  color: #fff;
 }
 
 .copyright-content a {
   font-size: 16px;
-  color: #343434;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .copyright-content a:hover {
-  color: #fff;
+  color: #5448BC;
 }
 
 /*===== BACK TO TOP =====*/
@@ -1483,11 +1483,11 @@ p {
     linear,
     left top,
     right top,
-    from(#343434),
-    color-stop(50%, #343434),
-    to(#343434)
+    from(#7067C7),
+    color-stop(50%, #594EBE),
+    to(#5448BC)
   );
-  background: linear-gradient(to right, #343434 0%, #343434 50%, #343434 100%);
+  background: linear-gradient(to right, #7067C7 0%, #594EBE 50%, #5448BC 100%);
   background-size: 200%;
   text-align: center;
   z-index: 99;
