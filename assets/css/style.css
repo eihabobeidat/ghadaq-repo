@@ -5,11 +5,7 @@ body {
   font-style: normal;
   color: #6a6972;
   overflow-x: hidden;
-}
-img[src="assets/logo/Asset 2.png"] {
-    width: 200px; /* Adjust to desired width */
-    height: auto; /* Maintains aspect ratio */
-}
+
 * {
   margin: 0;
   padding: 0;
