@@ -148,11 +148,12 @@ p {
     linear,
     left top,
     right top,
-    from(#33c8c1),
-    color-stop(50%, #5448BC),
-    to(#33c8c1)
+    from(#7067C7),
+    color-stop(50%, #594EBE),
+    to(#5448BC)
   );
-  background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: linear-gradient(to right, #7067C7 0%, #594EBE 50%, #5448BC 100%
+);
   background-size: 200%;
 }
 
@@ -174,10 +175,10 @@ p {
     linear,
     left top,
     left bottom,
-    from(#fe8464),
-    to(#fe6e9a)
+    from(#7067C7),
+    to(#5448BC)
   );
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(#7067C7 0%, #5448BC 100%);
   width: 150px;
   height: 5px;
   margin-bottom: 10px !important;
@@ -626,11 +627,11 @@ p {
     linear,
     left top,
     right top,
-    from(#fe8464),
-    color-stop(50%, #fe6e9a),
-    to(#fe8464)
+    from(#7067C7),
+    color-stop(50%, #594EBE),
+    to(#5448BC)
   );
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: linear-gradient(to right, #7067C7 0%, #594EBE 50%, #5448BC 100%);
   background-size: 200%;
 }
 
@@ -865,7 +866,7 @@ p {
 }
 
 .single-services .services-content .services-title a:hover {
-  color: #361cc1;
+  color: #5448BC;
 }
 
 .single-services .services-content .text {
@@ -882,7 +883,7 @@ p {
   margin-top: 30px;
   font-size: 16px;
   font-weight: 400;
-  color: #fe7a7b;
+  color: #5448BC;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
@@ -898,7 +899,7 @@ p {
 }
 
 .single-services:hover {
-  border-color: #fe7a7b;
+  border-color: #5448BC;
 }
 
 .single-services:hover .services-icon .shape {
@@ -965,11 +966,11 @@ p {
     linear,
     left top,
     right top,
-    from(#fe8464),
-    color-stop(50%, #fe6e9a),
-    to(#fe8464)
+    from(#7067C7),
+    color-stop(50%, #594EBE),
+    to(#5448BC)
   );
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: linear-gradient(to right, #7067C7 0%, #594EBE 50%, #5448BC 100%);
   background-size: 200%;
   height: 50px;
   line-height: 50px;
@@ -1120,10 +1121,10 @@ p {
     linear,
     left top,
     left bottom,
-    from(#33c8c1),
-    to(#119bd2)
+    from(#EEEEEE),
+    to(#F8F8F8)
   );
-  background: linear-gradient(#33c8c1 0%, #119bd2 100%);
+  background: linear-gradient(#EEEEEE 0%, #F8F8F8 100%);
 }
 
 .counter-wrapper .single-counter.counter-color-2::before {
@@ -1270,7 +1271,7 @@ p {
 }
 
 .subscribe-form input:focus {
-  border-color: #361cc1;
+  border-color: #5448BC;
 }
 
 .subscribe-form button {
