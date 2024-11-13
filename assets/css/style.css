@@ -234,7 +234,7 @@ p {
 }
 
 .preloader .loader {
-  display: table-cell;
+  display: none;
   vertical-align: middle;
   text-align: center;
 }
