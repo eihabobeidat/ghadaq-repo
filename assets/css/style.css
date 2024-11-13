@@ -1286,11 +1286,11 @@ p {
     linear,
     left top,
     right top,
-    from(#fe8464),
-    color-stop(50%, #fe6e9a),
-    to(#fe8464)
+    from(#343434),
+    color-stop(50%, #343434),
+    to(#343434)
   );
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: linear-gradient(to right, #343434 0%, #343434 50%, #343434 100%);
   background-size: 200%;
 }
 
@@ -1381,19 +1381,19 @@ p {
 
 .footer-about .social li a {
   font-size: 22px;
-  color: #fff;
+  color: #343434;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .footer-about .social li a:hover {
-  color: #fe8464;
+  color: #fff;
 }
 
 .footer-title .title {
   font-size: 24px;
   font-weight: 700;
-  color: #fff;
+  color: #343434;
 }
 
 .link-wrapper {
@@ -1424,13 +1424,13 @@ p {
 
 .link-wrapper .link li a {
   font-size: 16px;
-  color: #fff;
+  color: #343434;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .link-wrapper .link li a:hover {
-  color: #fe8464;
+  color: #fff;
 }
 
 .footer-contact .contact {
@@ -1440,7 +1440,7 @@ p {
 .footer-contact .contact li {
   margin-top: 20px;
   font-size: 16px;
-  color: #fff;
+  color:#343434;
 }
 
 .footer-copyright {
@@ -1455,18 +1455,18 @@ p {
 }
 
 .copyright-content p {
-  color: #fff;
+  color: #343434;
 }
 
 .copyright-content a {
   font-size: 16px;
-  color: #fff;
+  color: #343434;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .copyright-content a:hover {
-  color: #fe8464;
+  color: #fff;
 }
 
 /*===== BACK TO TOP =====*/
@@ -1483,11 +1483,11 @@ p {
     linear,
     left top,
     right top,
-    from(#fe8464),
-    color-stop(50%, #fe6e9a),
-    to(#fe8464)
+    from(#343434),
+    color-stop(50%, #343434),
+    to(#343434)
   );
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: linear-gradient(to right, #343434 0%, #343434 50%, #343434 100%);
   background-size: 200%;
   text-align: center;
   z-index: 99;
