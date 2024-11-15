@@ -1176,9 +1176,6 @@ p {
   .counter-wrapper .single-counter .text {
     font-size: 14px;
   }
- .title-box{
-	 text-align:center;
-	 margin: 100px auto 50px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
