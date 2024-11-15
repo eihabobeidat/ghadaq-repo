@@ -1187,8 +1187,11 @@ p {
 	TEAM COUNTER css 
 ===========================*/
 .video-content {
-  position: center;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
   padding-bottom: 30px;
+  margin-top: -20px; /* Adjust this value to lift the content */
 }
 
 .video-wrapper {
@@ -1240,6 +1243,9 @@ p {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+/* The rest of the code remains unchanged */
+
 
 .counter-wrapper {
   padding-left: 70px;
