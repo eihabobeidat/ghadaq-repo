@@ -1183,7 +1183,7 @@ p {
 /*===========================
   TEAM css 
 ===========================*/
-.single-services {
+.single-teams {
   background-color: #343434;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
@@ -1195,22 +1195,22 @@ p {
 }
 
 @media (max-width: 767px) {
-  .single-services {
+  .single-teams {
     padding: 20px 20px 30px;
   }
 }
 
-.single-services .services-icon {
+.single-teams .teams-icon {
   display: inline-block;
   position: relative;
 }
 
-.single-services .services-icon img {
+.single-teams .services-icon img {
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
 }
 
-.single-services .services-icon .shape-1 {
+.single-teams .services-icon .shape-1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1218,7 +1218,7 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.single-services .services-icon i {
+.single-teams .services-icon i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1228,7 +1228,7 @@ p {
   color: #fff;
 }
 
-.single-services .services-content .services-title a {
+.single-teams .teams-content .teams-title a {
   font-size: 26px;
   font-weight: 400;
   color: #fff;
@@ -1237,32 +1237,32 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .single-services .services-content .services-title a {
+  .single-teams .teams-content .teams-title a {
     font-size: 24px;
   }
 }
 
 @media (max-width: 767px) {
-  .single-services .services-content .services-title a {
+  .single-teams .teams-content .teams-title a {
     font-size: 20px;
   }
 }
 
-.single-services .services-content .services-title a:hover {
+.single-teams .teams-content .teams-title a:hover {
   color: #5448BC;
 }
 
-.single-services .services-content .text {
+.single-teams .teams-content .text {
   margin-top: 30px;
 }
 
 @media (max-width: 767px) {
-  .single-services .services-content .text {
+  .single-teams .teams-content .text {
     margin-top: 20px;
   }
 }
 
-.single-services .services-content .more {
+.single-teams .teams-content .more {
   margin-top: 30px;
   font-size: 16px;
   font-weight: 400;
@@ -1271,21 +1271,21 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-.single-services .services-content .more i {
+.single-teams .teams-content .more i {
   margin-left: 10px;
   font-size: 14px;
   font-weight: 700;
 }
 
-.single-services .services-content .more:hover {
+.single-teams .teams-content .more:hover {
   letter-spacing: 2px;
 }
 
-.single-services:hover {
+.single-teams:hover {
   border-color: #5448BC;
 }
 
-.single-services:hover .services-icon .shape {
+.single-teams:hover .teams-icon .shape {
   -webkit-transform: rotate(25deg);
   transform: rotate(25deg);
 }
