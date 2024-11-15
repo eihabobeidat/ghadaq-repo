@@ -981,80 +981,6 @@ p {
 .about-content .main-btn:hover {
   background-position: right center;
 }
-/*===========================
-	ABOUT css 
-===========================*/
-.about-area {
-  position: relative;
-  z-index: 5;
-}
-
-.about-shape-1 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 35%;
-  height: 100%;
-  z-index: -1;
-}
-
-.about-shape-1 img {
-  width: 100%;
-}
-
-@media (max-width: 767px) {
-  .about-shape-1 {
-    display: none;
-  }
-}
-
-.about-shape-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 35%;
-  height: 100%;
-  z-index: -1;
-}
-
-.about-shape-2 img {
-  width: 100%;
-}
-
-@media (max-width: 767px) {
-  .about-shape-2 {
-    display: none;
-  }
-}
-
-.about-content {
-  max-width: 480px;
-}
-
-.about-content .text {
-  margin-top: 15px;
-}
-
-.about-content .main-btn {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#7067C7),
-    color-stop(50%, #594EBE),
-    to(#5448BC)
-  );
-  background: linear-gradient(to right, #7067C7 0%, #594EBE 50%, #5448BC 100%);
-  background-size: 200%;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 35px;
-  margin-top: 40px;
-}
-
-.about-content .main-btn:hover {
-  background-position: right center;
-}
 
 /*===========================
 	VIDEO COUNTER css 
@@ -1257,6 +1183,208 @@ p {
     font-size: 16px;
   }
 }
+/*===========================
+	TEAM COUNTER css 
+===========================*/
+.video-content {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.video-content .dots {
+  position: absolute;
+  left: -30px;
+  bottom: 0;
+}
+
+.video-wrapper {
+  margin-right: 15px;
+  position: relative;
+  -webkit-box-shadow: 0px 13px 46px 0px rgba(113, 113, 113, 0.33);
+  box-shadow: 0px 13px 46px 0px rgba(113, 113, 113, 0.33);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .video-wrapper {
+    margin-right: 0;
+  }
+}
+
+.video-wrapper .video-image img {
+  width: 100%;
+}
+
+.video-wrapper .video-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(54, 28, 193, 0.2)),
+    to(rgba(46, 130, 239, 0.2))
+  );
+  background: linear-gradient(
+    to right,
+    rgba(54, 28, 193, 0.2) 0%,
+    rgba(46, 130, 239, 0.2) 100%
+  );
+}
+
+.video-wrapper .video-icon a {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #5448BC;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.counter-wrapper {
+  padding-left: 70px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
+  .counter-wrapper {
+    padding-left: 0;
+  }
+}
+
+.counter-wrapper .counter-content .text {
+  margin-top: 35px;
+}
+
+.counter-wrapper .single-counter {
+  max-width: 155px;
+  height: 120px;
+  border-radius: 60px;
+  position: relative;
+  z-index: 5;
+  margin-top: 60px;
+}
+
+@media (max-width: 767px) {
+  .counter-wrapper .single-counter {
+    max-width: 100px;
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .counter-wrapper .single-counter {
+    max-width: 155px;
+    height: 120px;
+  }
+}
+
+.counter-wrapper .single-counter::before {
+  position: absolute;
+  content: "";
+  width: 155px;
+  height: 120px;
+  border-radius: 60px;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .counter-wrapper .single-counter::before {
+    max-width: 100px;
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .counter-wrapper .single-counter::before {
+    max-width: 155px;
+    height: 120px;
+  }
+}
+
+.counter-wrapper .single-counter.counter-color-1::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#EEEEEE),
+    to(#F8F8F8)
+  );
+  background: linear-gradient(#EEEEEE 0%, #F8F8F8 100%);
+}
+
+.counter-wrapper .single-counter.counter-color-2::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#5448BC),
+    to(#7067C7)
+  );
+  background: linear-gradient(#5448BC 0%, #7067C7 100%);
+}
+
+.counter-wrapper .single-counter.counter-color-3::before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#343434),
+    to(#585858)
+  );
+  background: linear-gradient(#343434 0%, #585858 100%);
+}
+
+.counter-wrapper .single-counter .count {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .counter-wrapper .single-counter .count {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .counter-wrapper .single-counter .count {
+    font-size: 22px;
+  }
+}
+
+.counter-wrapper .single-counter .text {
+  font-size: 16px;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .counter-wrapper .single-counter .text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .counter-wrapper .single-counter .text {
+    font-size: 16px;
+  }
+}
+
 
 /*===========================
   SUBSCRIBE  css 
