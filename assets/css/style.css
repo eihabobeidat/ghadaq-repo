@@ -1205,12 +1205,12 @@ p {
   position: relative;
 }
 
-.single-teams .services-icon img {
+.single-teams .teams-icon img {
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
 }
 
-.single-teams .services-icon .shape-1 {
+.single-teams .teams-icon .shape-1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1218,7 +1218,7 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.single-teams .services-icon i {
+.single-teams .teams-icon i {
   position: absolute;
   top: 50%;
   left: 50%;
