@@ -981,6 +981,80 @@ p {
 .about-content .main-btn:hover {
   background-position: right center;
 }
+/*===========================
+	ABOUT css 
+===========================*/
+.about-area {
+  position: relative;
+  z-index: 5;
+}
+
+.about-shape-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35%;
+  height: 100%;
+  z-index: -1;
+}
+
+.about-shape-1 img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .about-shape-1 {
+    display: none;
+  }
+}
+
+.about-shape-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  z-index: -1;
+}
+
+.about-shape-2 img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .about-shape-2 {
+    display: none;
+  }
+}
+
+.about-content {
+  max-width: 480px;
+}
+
+.about-content .text {
+  margin-top: 15px;
+}
+
+.about-content .main-btn {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#7067C7),
+    color-stop(50%, #594EBE),
+    to(#5448BC)
+  );
+  background: linear-gradient(to right, #7067C7 0%, #594EBE 50%, #5448BC 100%);
+  background-size: 200%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 35px;
+  margin-top: 40px;
+}
+
+.about-content .main-btn:hover {
+  background-position: right center;
+}
 
 /*===========================
 	VIDEO COUNTER css 
