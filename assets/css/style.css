@@ -1187,14 +1187,8 @@ p {
 	TEAM COUNTER css 
 ===========================*/
 .video-content {
-  position: relative;
+  position: center;
   padding-bottom: 30px;
-}
-
-.video-content .dots {
-  position: absolute;
-  left: -30px;
-  bottom: 0;
 }
 
 .video-wrapper {
@@ -1210,10 +1204,6 @@ p {
   .video-wrapper {
     margin-right: 0;
   }
-}
-
-.video-wrapper .video-image img {
-  width: 100%;
 }
 
 .video-wrapper .video-icon {
