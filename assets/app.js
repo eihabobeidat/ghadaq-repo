@@ -19,17 +19,17 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
 
-// Get the button and the forms container
-const showFormsBtn = document.getElementById('show-forms-btn');
-const authForms = document.getElementById('auth-forms');
+// Get the Sign Up button and the forms container
+const showSignupBtn = document.getElementById('show-signup-form'); // The Sign Up button
+const authForms = document.getElementById('auth-forms');  // Container that holds both Sign-Up and Sign-In forms
 
-// Toggle forms visibility when the button is clicked
-showFormsBtn.addEventListener('click', () => {
-    // Toggle between showing and hiding the forms
+// Toggle visibility of the forms when the Sign Up button is clicked
+showSignupBtn.addEventListener('click', () => {
+    // Show the forms if hidden, else hide them
     if (authForms.style.display === 'none') {
-        authForms.style.display = 'block';  // Show the forms
+        authForms.style.display = 'block';  // Show the forms container
     } else {
-        authForms.style.display = 'none';   // Hide the forms
+        authForms.style.display = 'none';  // Hide the forms container
     }
 });
 
@@ -45,9 +45,10 @@ signupForm.addEventListener('submit', (e) => {
     const email = signupEmail.value;
     const password = signupPassword.value;
 
+    // Firebase Sign-Up Logic
     createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-            // Signed in
+            // Successfully signed up
             const user = userCredential.user;
             console.log("User signed up: ", user);
             alert("Signed up successfully!");
@@ -72,9 +73,10 @@ signinForm.addEventListener('submit', (e) => {
     const email = signinEmail.value;
     const password = signinPassword.value;
 
+    // Firebase Sign-In Logic
     signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-            // Signed in
+            // Successfully signed in
             const user = userCredential.user;
             console.log("User signed in: ", user);
             alert("Signed in successfully!");
