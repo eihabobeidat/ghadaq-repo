@@ -148,6 +148,28 @@
                 >
                   Sign Up
                 </a>
+                <!-- Hidden forms container initially -->
+                <div id="auth-forms" style="display: none;">
+                  <!-- Sign-up Form -->
+                  <form id="signup-form">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required />
+                    <button type="submit">Sign Up</button>
+                  </form>
+              
+                  <!-- Sign-in Form (optional, you can hide it initially if needed) -->
+                  <form id="signin-form">
+                    <label for="signin-email">Email</label>
+                    <input type="email" id="signin-email" name="email" required />
+                    <label for="signin-password">Password</label>
+                    <input type="password" id="signin-password" name="password" required />
+                    <button type="submit">Sign In</button>
+                  </form>
+                
               </div>
               <!-- header hero content -->
             </div>
