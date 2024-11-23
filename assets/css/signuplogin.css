@@ -241,6 +241,22 @@ body {
   .form-content .signup-form {
     display: none;
   }
+.form-container {
+  position: relative;  /* To make positioning inside it easier */
+}
+
+.back-arrow {
+  font-size: 30px;   /* Adjust the size of the arrow */
+  text-decoration: none;
+  color: #007BFF;    /* Change the color of the arrow */
+  position: absolute;  /* Position it relative to the form container */
+  left: 10px;        /* Adjust how far from the left you want it */
+  top: 10px;         /* Adjust how far from the top you want it */
+}
+
+.back-arrow:hover {
+  color: #0056b3;    /* Change color when hovered */
+}
 
   .container #flip:checked ~ .forms .signup-form {
     display: block;
