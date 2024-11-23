@@ -13,9 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('assets/images/backgroundform.png'); /* Replace with the path to your image */
-  background-size: cover; /* Ensures the image covers the whole background */
-  background-position: center; /* Centers the image in the viewport */
+  background: #57464A;
   padding: 30px;
 }
 
