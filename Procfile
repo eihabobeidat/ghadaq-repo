@@ -1,1 +1,1 @@
-web: bin/start-nginx
+web: echo $PORT && nginx -p . -c config/nginx.conf
