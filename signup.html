@@ -1,67 +1,64 @@
 <!DOCTYPE html>
-<!-- Coding by CodingNepal | www.codingnepalweb.com-->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title> Login and Registration Form in HTML & CSS | CodingLab </title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="assets/css/signuplogin.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
-          <div class="container">
-            <input type="checkbox" id="flip">
-            <div class="cover">
-              <div class="front">
-                <img src="assets/images/services/beta.jpg" alt="">
-                <div class="text">
-                  <span class="text-1">Be the first to try out our features and help us improve.</span>
-                  <span class="text-2">Join Our Beta</span>
-                </div>
-              </div>
-              <div class="back">
-                <!--<img class="backImg" src="assets/images/backgroundform.png" alt="">-->
-                <div class="text">
-                  <span class="text-1">Complete miles of journey <br> with one step</span>
-                  <span class="text-2">Let's get started</span>
-                </div>
-              </div>
-            </div>
-           <div class="forms">
-          <div class="form-content">
-            <!-- Removed the entire login-form div to only keep the signup-form -->
-            <div class="signup-form">
-              <div class="title">Signup</div>
-              <form action="#">
-                <div class="input-boxes">
-                  <div class="input-box">
-                    <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Enter your name" required>
-                  </div>
-                  <div class="input-box">
-                    <i class="fas fa-envelope"></i>
-                    <input type="text" placeholder="Enter your email" required>
-                  </div>
-                  <div class="input-box">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Enter your password" required>
-                  </div>
-                  <div class="button input-box">
-                    <input type="submit" value="Sign Up">
-                  </div>
-                  <!-- The "login now" text is still visible in the signup form, you can keep this or modify as needed -->
-                 <div class="text sign-up-text"> <a href="index.html" class="back-arrow">&#8592;</a> </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
 
-      </form>
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Form with Email</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/signuplogin.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img src="assets/images/services/beta.jpg" alt="">
+        <div class="text">
+          <span class="text-1">Be the first to try out our features and help us improve.</span>
+          <span class="text-2">Join Our Beta</span>
+        </div>
+      </div>
+      <div class="back">
+        <div class="text">
+          <span class="text-1">Complete miles of journey <br> with one step</span>
+          <span class="text-2">Let's get started</span>
+        </div>
+      </div>
     </div>
-    </div>
+    <div class="forms">
+      <div class="form-content">
+        <div class="signup-form">
+          <div class="title">Contact Us</div>
+          <form action="https://formsubmit.co/info@scifile.co" method="POST">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" name="name" placeholder="Enter your name" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-comment"></i>
+                <textarea name="message" placeholder="Enter your message" required
+                  style="height: 50px; width: 100%; outline: none; border: none; padding: 10px 30px; font-size: 16px; font-weight: 500; border-bottom: 2px solid rgba(0, 0, 0, 0.2); border-radius: 6px; resize: none; transition: all 0.3s ease;"></textarea>
+
+              </div>
+              <div class="button input-box">
+                <input type="submit" value="Send Message">
+              </div>
+              <div class="text sign-up-text">
+                <a href="index.html" class="back-arrow">&#8592; Back</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </body>
+
 </html>
