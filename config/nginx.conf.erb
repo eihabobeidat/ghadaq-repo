@@ -10,7 +10,7 @@ http {
   keepalive_timeout 65;
 
   server {
-    listen <%= ENV["PORT"] %>;  # Use Heroku's dynamically assigned port
+    listen 80;  # Use Heroku's dynamically assigned port
     server_name localhost;
 
     # Root directory for static files
