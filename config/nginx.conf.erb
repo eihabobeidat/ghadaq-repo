@@ -1,7 +1,7 @@
 server {
-  listen <%= ENV["PORT"] %>;
+  listen <%= ENV["PORT"] %>;  # This ensures NGINX binds to Heroku's $PORT
 
-  root /app/public;
+  root /app/public;          # Ensure your static files are inside the 'public' directory
   index index.html;
 
   location / {
